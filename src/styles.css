@@ -1,7 +1,7 @@
 body {
   font-family: sans-serif;
   text-align: center;
-  background-image: url("assets/body-image.jpg");
+  background-image: url("./assets/body-image.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
