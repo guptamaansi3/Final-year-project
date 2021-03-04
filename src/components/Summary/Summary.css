@@ -1,0 +1,10 @@
+.summary{
+  padding-top: 12rem;
+}
+.heading{
+  background: white;
+  font-size: 60px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
