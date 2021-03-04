@@ -1,15 +1,16 @@
-.summary{
+.summary {
   padding-top: 12rem;
   display: flex;
   flex-direction: column;
 }
 
-.heading-summary, .paragraph{
+.heading-summary,
+.paragraph {
   padding-left: 4rem;
   display: inline-flex;
 }
 
-.paragraph{
+.paragraph {
   padding-top: 1rem;
   padding-left: 5.6rem;
   display: inline-flex;
@@ -22,9 +23,9 @@
   text-align: left;
 }
 
-.summary-para{
+.summary-para {
   background-color: white;
   font-size: 20px;
-  padding: 20px; 
+  padding: 20px;
   text-align: left;
 }
