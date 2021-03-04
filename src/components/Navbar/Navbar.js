@@ -1,17 +1,13 @@
 import React from 'react';
-import './Navbar.css';
 
 const Navbar = () => {
   return(
     <div className='navbar'>
-      <div className='left-nav-content'>Logo</div>
-      <div className='right-nav-content'>
-        <ul className='nav-links'>
-          <li><a href='#'>HomePage</a></li>
-          <li><a href='#'>Recipes</a></li>
-          <li><a href='#'>Saved Recipes</a></li>
-        </ul>
-      </div>
+      <ul className='nav-list'>
+        <li className='nav-list-item'><a href="/">HomePage</a></li>
+        <li className='nav-list-item'><a href="/">Recipes</a></li>
+        <li className='nav-list-item'><a href="/">Saved Recipes</a></li>
+      </ul>
     </div>
   )
 }

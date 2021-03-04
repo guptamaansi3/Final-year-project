@@ -1,13 +1,12 @@
 import React from 'react';
 import "./styles.css";
-import Navbar from './components/Navbar/Navbar';
+import Header from './components/Header/Header';
 
 export default function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Header />
       <h1>Projects</h1>
-      
     </div>
   );
 }
