@@ -8,14 +8,14 @@
   justify-content: space-between;
 }
 
-.nav-list-item{
+.nav-list-item {
   padding-right: 5rem;
 }
 
 a {
   color: grey;
   font-weight: bold;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
   font-size: 1.7rem;
   text-decoration: none;
 }
