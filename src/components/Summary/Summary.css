@@ -1,12 +1,28 @@
 .summary{
   padding-top: 12rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading-summary{
+  padding-left: 4rem;
+  display: inline-flex;
+  margin-bottom: 20px;
 }
 
 .heading {
   background-color: white;
+  position: absolute;
   font-size: 60px;
   padding: 20px;
-  display: inline-flex;
+  text-align: left;
+}
+
+.summary-para{
+  background-color: white;
+  padding: 20px;
+  position: absolute;
   flex-direction: column;
   text-align: left;
 }

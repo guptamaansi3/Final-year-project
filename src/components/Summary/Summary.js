@@ -4,10 +4,12 @@ import './Summary.css';
 const Summary = () => {
   return(
     <div className='summary'>
+      <div className='heading-summary'>
       <h1 className='heading'>
         Explore Foods from<br />
         around the Globe 
       </h1>
+      </div>
       <p className='summary-para'>
       Whether you're looking for healthy recipes, or ideas on
       how to use leftovers from your fridge, we've numerous
