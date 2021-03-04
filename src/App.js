@@ -6,7 +6,6 @@ export default function App() {
   return (
     <div className="App">
       <Header />
-      <h1>Projects</h1>
     </div>
   );
 }

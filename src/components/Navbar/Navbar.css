@@ -1,0 +1,23 @@
+.navbar {
+  padding: 24px;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list-item{
+  padding-right: 5rem;
+}
+
+a {
+  color: #95a5a6;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+a:active {
+  color: #f5ab35;
+}
