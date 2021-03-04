@@ -1,5 +1,5 @@
 .navbar {
-  padding: 24px;
+  padding-top: 30px;
 }
 
 .nav-list {
@@ -13,9 +13,11 @@
 }
 
 a {
-  color: #95a5a6;
-  font-size: 1.3rem;
+  color: grey;
   font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1.7rem;
+  text-decoration: none;
 }
 
 a:active {

@@ -1,7 +1,7 @@
 body {
   font-family: sans-serif;
   text-align: center;
-  background-color: aquamarine;
+  background: url('assets/food-backgroun1.jpg');
   background-size: cover;
   background-attachment: fixed;
 }

@@ -1,8 +1,11 @@
-.logo {
-  padding: 20px;
-}
-
-.logo-img {
-  height: 20px;
-  width: 20px;
+h2{
+    padding-top: 0px;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: .3rem;
+    background-color: #537895;
+background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Romanesco', cursive;
 }

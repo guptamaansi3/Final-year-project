@@ -4,7 +4,7 @@ import './Logo.css';
 const Logo = () => {
   return(
     <div className='logo'>
-      <img classname='logo-img' src='assets/logo.png' alt='random' />
+      <h2>Recipe Curl</h2>
     </div>
   )
 }
