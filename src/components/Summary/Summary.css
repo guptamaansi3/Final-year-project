@@ -4,28 +4,36 @@
   flex-direction: column;
 }
 
-.heading-summary,
-.paragraph {
-  padding-left: 4rem;
+.heading-summary {
+  padding-left: 5rem;
   display: inline-flex;
 }
 
 .paragraph {
   padding-top: 1rem;
-  padding-left: 5.6rem;
+  padding-left: 9rem;
   display: inline-flex;
+  margin-top: 1rem;
 }
 
 .heading {
   background-color: white;
   font-size: 60px;
-  padding: 20px;
+  padding: 30px;
   text-align: left;
+  line-height: 5rem;
 }
 
 .summary-para {
   background-color: white;
-  font-size: 20px;
-  padding: 20px;
+  font-size: 23px;
+  padding: 40px;
   text-align: left;
+  color: grey;
+  opacity: .9;
+}
+
+.img{
+    height: 20px;
+    width: 20px;
 }

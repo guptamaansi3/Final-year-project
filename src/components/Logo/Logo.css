@@ -1,10 +1,12 @@
 h2{
     padding-top: 0px;
-    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 70px;
     font-weight: bold;
     letter-spacing: .3rem;
-    background-color: #537895;
-background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+    background-color: #166d3b;
+background-image: linear-gradient(147deg, #166d3b 37%, #000000 74%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Romanesco', cursive;
