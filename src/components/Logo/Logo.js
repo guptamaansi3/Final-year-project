@@ -4,7 +4,7 @@ import './Logo.css';
 const Logo = () => {
   return(
     <div className='logo'>
-      <h2>Recipe Curl</h2>
+      <h2 className='logo1'>Recipe Curl</h2>
     </div>
   )
 }

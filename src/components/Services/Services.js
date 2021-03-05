@@ -13,7 +13,7 @@ return(
     title= 'Search by recipe'
     content= "Already know what you're looking for? Just type the recipe name in search and choose a recipe."
     />
-    {/* <Cards 
+    <Cards 
     image= 'assets/vegetables.svg' 
     title= 'Search by ingredients'
     content= "Looking for recipe ideas? Just input ingredients in the Ingredients filter and see what comes up."
@@ -22,7 +22,7 @@ return(
     image= 'assets/serving-dish.svg' 
     title= 'Filter recipes'
     content= 'Want to keep only certain recipes? We have both diet and health filters to help you find the perfect recipe for you.'
-    /> */}
+    /> 
   </div>
   </div>
    )
