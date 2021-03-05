@@ -7,6 +7,7 @@
 .heading-summary {
   padding-left: 5rem;
   display: inline-flex;
+  position: relative;
 }
 
 .paragraph {
