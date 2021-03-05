@@ -1,6 +1,5 @@
 import React from 'react';
 import './Summary.css';
-import Search from '../Search-button/Search';
 
 const Summary = () => {
   return(
@@ -20,7 +19,6 @@ const Summary = () => {
       </p>
       </div>
       <img src='assets/food.svg' alt='random' />
-      <Search />
     </div>
   )
 }
