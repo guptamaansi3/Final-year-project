@@ -18,7 +18,7 @@ const Summary = () => {
       perfect dish.
       </p>
       </div>
-      <img src='assets/summary-photo.svg' alt='random' />
+      <img src='assets/food.svg' alt='random' />
     </div>
   )
 }
