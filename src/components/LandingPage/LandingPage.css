@@ -1,7 +1,6 @@
-body{
+.landing-page{
   background: url('assets/food-backgroun1.jpg');
   background-size: cover;
   background-attachment: fixed;
-  background-repeat: no-repeat;
-  
+  background-repeat: no-repeat; 
 }

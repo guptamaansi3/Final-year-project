@@ -6,12 +6,10 @@ import './LandingPage.css';
 
 export default function LandingPage() {
   return (
-    <div className="LandingPage">
-      <body>
+    <div className="landing-page">
       <Header />
       <Summary />
       <Search />
-      </body>
     </div>
   );
 }

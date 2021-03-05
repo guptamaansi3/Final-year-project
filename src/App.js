@@ -1,14 +1,14 @@
-import React from 'react';
-import LandingPage from './components/LandingPage/LandingPage';
-import Intro from './components/Services/Intro/Intro';
-import "./styles.css";
+import React from "react";
+import LandingPage from "./components/LandingPage/LandingPage";
+import Services from './components/Services/Services';
 
+import "./styles.css";
 
 export default function App() {
   return (
     <div className="App">
       <LandingPage />
-      <Intro />
+      <Services />
     </div>
   );
 }

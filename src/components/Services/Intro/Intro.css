@@ -1,5 +1,6 @@
 .intro{
   margin: auto;
+  padding-top: 5rem;
 }
 
 h1{
@@ -9,7 +10,9 @@ h1{
 }
 
 p{
+  padding-top: 1.5rem;
   color: grey;
   text-align: center;
   font-size: 20px;
 }
+
