@@ -5,6 +5,7 @@ const Footer = () =>{
   return(
     <div className='footer'>
       <div className='footer-wrapper'>
+        <img className='footer-pic' src='assets/green-food.png' alt='leaf' />
         <div className='footer-column-1'>
           <h2 className='footer-logo'>Recipe Curl</h2>
           <p className='footer-para'>uses the awesome Edamam API<br />

@@ -12,19 +12,20 @@
   margin: 0 auto;
 }
 
-.footer-column-1, .footer-column-2, .footer-column-3{
+.footer-column-1,
+.footer-column-2,
+.footer-column-3 {
   text-align: left;
   display: flex;
   flex-direction: column;
   line-height: 3rem;
 }
 
-
 .footer-logo,
 .name {
   color: white;
   font-family: "Romanesco", cursive;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .footer-para,
@@ -48,8 +49,12 @@ li {
   list-style-type: none;
 }
 
-
-.copyright{
+.copyright {
   height: 25px;
   filter: brightness(0) invert(1);
+}
+
+.footer-pic{
+  height: 400px;
+  width: 400px;
 }
