@@ -9,7 +9,7 @@ const Footer = () =>{
           <h2 className='footer-logo'>Recipe Curl</h2>
           <p className='footer-para'>uses the awesome Edamam API<br />
            for recipes and nutrition data.</p>
-           <p className='copyright'>Coded by Maansi Gupta</p>
+           <p className='copyright'>Copyright <img className='copyright' src='assets/copyright.svg' alt='copyright'/> Maansi Gupta</p>
         </div>
         <div className='footer-column-2'>
           <h2 className='footer-logo'>Recipe Curl</h2>
