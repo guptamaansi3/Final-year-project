@@ -5,8 +5,10 @@ import "./styles.css";
 
 export default function App() {
   return (
+    <Switch>
     <div className="App">
       <HomePage />
     </div>
+    </Switch>
   );
 }
