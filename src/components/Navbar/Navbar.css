@@ -20,6 +20,8 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+a.active_class {
   color: #166d3b;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #166d3b;
 }
