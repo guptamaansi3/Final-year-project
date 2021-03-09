@@ -1,14 +1,14 @@
 import React from 'react';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
-import './SavedRecipes.css';
+import './Categories.css';
 
 const Categories = () => {
   return(
-    <div className='saved-recipes-page'>
+    <div className='categories-page'>
       <Header />
-      <div className='saved-recipes'>
-      <h1>View all your Saved Recipes</h1>
+      <div className='categories'>
+      <h1>Categories</h1>
       </div>
       <Footer />
     </div>
