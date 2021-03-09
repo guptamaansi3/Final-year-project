@@ -33,7 +33,11 @@
   border-radius: 50%;
   padding: 10px;
   height: 2.5rem;
-  filter: grayscale(10%);
+  cursor: pointer;
   position: relative;
   margin-left: 24rem;
+}
+
+.meal-heading{
+  padding: 30px;
 }

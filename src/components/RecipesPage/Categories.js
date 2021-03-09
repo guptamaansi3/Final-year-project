@@ -13,6 +13,7 @@ const Categories = () => {
         <input className='input-search' type='search' placeholder='    Recipe  Search' value='' />
         <img className='search-svg' src='assets/search.svg' alt='random' />
       </div>
+      <h1 className='meal-heading'>Meals of the day</h1>
       <Footer />
     </div>
   )
