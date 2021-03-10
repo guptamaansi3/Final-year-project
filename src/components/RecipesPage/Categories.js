@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import CategoryCard from './CategoryCard';
 import "./Categories.css";
 
 const Categories = () => {
@@ -23,6 +24,7 @@ const Categories = () => {
         />
       </div>
       <h1 className="meal-heading">Meals of the day</h1>
+      <CategoryCard />
       <Footer />
     </div>
   );
