@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import CategoryCard from './CategoryCard';
+import mealOfDayData from './MealOfDay';
 import "./Categories.css";
 
 const Categories = () => {
