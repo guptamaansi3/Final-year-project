@@ -25,7 +25,10 @@ const Categories = () => {
         />
       </div>
       <h1 className="meal-heading">Meals of the day</h1>
-      <CategoryCard />
+      <CategoryCard 
+      imgsrc= {mealOfDayData[0].imgsrc}
+      title = {mealOfDayData[0].title}
+      />
       <Footer />
     </div>
   );

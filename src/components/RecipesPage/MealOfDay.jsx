@@ -4,7 +4,7 @@ const mealOfDayData = [
     title: 'Breakfast'
   },
   {
-    imgsrc : 'assets/lunch.jpeg',
+    imgsrc : './assets/lunch.jpeg',
     title: 'Lunch'
   },
   {
@@ -16,3 +16,5 @@ const mealOfDayData = [
     title: 'Desserts'
   }
 ]
+
+export default mealOfDayData;
