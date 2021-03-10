@@ -1,4 +1,10 @@
+.category-content{
+  padding: 0;
+  margin: 1.8rem;;
+}
+
 .category-img{
-  height: 15rem;
-  width: 15rem;
+  height: 19rem;
+  width: 17rem;
+  
 }

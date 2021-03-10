@@ -1,5 +1,5 @@
 .navbar {
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .nav-list {
@@ -22,6 +22,6 @@ a {
 
 a.active_class {
   color: #166d3b;
-  padding-bottom: 10px;
+  padding-bottom: 8px;
   border-bottom: 3px solid #166d3b;
 }

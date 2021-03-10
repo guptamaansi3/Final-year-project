@@ -25,6 +25,7 @@ const Categories = () => {
         />
       </div>
       <h1 className="meal-heading">Meals of the day</h1>
+      <div className='cards-set1'>
       <CategoryCard 
       imgsrc= {mealOfDayData[0].imgsrc}
       title = {mealOfDayData[0].title}
@@ -41,6 +42,7 @@ const Categories = () => {
       imgsrc= {mealOfDayData[3].imgsrc}
       title = {mealOfDayData[3].title}
       />
+      </div>
       <Footer />
     </div>
   );
