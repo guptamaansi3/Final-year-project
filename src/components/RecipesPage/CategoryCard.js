@@ -2,9 +2,10 @@ import React from 'react';
 
 const CategoryCard = () => {
   return(
-    <div className='category-card'>
-
-    </div>
+      <button className='category-card'>
+        <div className='category-content'><
+      </button>
+    
   )
 }
 

@@ -17,7 +17,6 @@ const Categories = () => {
         />
         <img
           id="search-button"
-          onclick="javascript.alert(input)"
           className="search-svg"
           src="assets/search.svg"
           alt="random"
@@ -29,12 +28,5 @@ const Categories = () => {
   );
 };
 
-var input = document.getElementById("search-input");
-input.addEventListener("keyup", function (event) {
-  if (event.keyCode === 13) {
-    event.preventDefault();
-    document.getElementById("search-button").click();
-  }
-});
 
 export default Categories;
