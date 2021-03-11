@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import CategoryCard from './CategoryCard';
-import mealOfDayData from './MealOfDay';
+import meal_Of_Day_Data from './CategoryData/MealOfDay';
 import "./Categories.css";
 
 const Categories = () => {
@@ -24,25 +24,22 @@ const Categories = () => {
           alt="random"
         />
       </div>
+
+      <div className='meal-of-day'>
       <h1 className="meal-heading">Meals of the day</h1>
       <div className='cards-set1'>
-      <CategoryCard 
-      imgsrc= {mealOfDayData[0].imgsrc}
-      title = {mealOfDayData[0].title}
-      />
-      <CategoryCard 
-      imgsrc= {mealOfDayData[1].imgsrc}
-      title = {mealOfDayData[1].title}
-      />
-      <CategoryCard 
-      imgsrc= {mealOfDayData[2].imgsrc}
-      title = {mealOfDayData[2].title}
-      />
-      <CategoryCard 
-      imgsrc= {mealOfDayData[3].imgsrc}
-      title = {mealOfDayData[3].title}
-      />
+      
+      {meal_Of_Day_Data.map((val) => {
+        return(
+          <CategoryCard 
+          imgsrc= {val.imgsrc}
+          title = {val.title}
+          />
+        );
+      })};
       </div>
+      </div>
+
       <Footer />
     </div>
   );

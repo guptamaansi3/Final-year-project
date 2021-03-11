@@ -8,7 +8,7 @@ const mealOfDayData = [
     title: 'Lunch'
   },
   {
-    imgsrc : 'assets/dinner.jpeg',
+    imgsrc : 'assets/dinner.jpg',
     title: 'Dinner'
   },
   {
