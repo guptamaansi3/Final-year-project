@@ -69,7 +69,8 @@ const Categories = () => {
           {around_the_world_Data.map((val) => {
             return <CategoryCard 
             imgsrc={val.imgsrc} 
-            title={val.title} />;
+            title={val.title} 
+            />
           })}
           
         </div>

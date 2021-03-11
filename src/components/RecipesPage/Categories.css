@@ -48,10 +48,15 @@
 
 .cards-set1,
 .cards-set2,
-.cards-set3,
-.cards-set4 {
+.cards-set3 {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+}
+
+.cards-set4 {
+  display: grid;
+  grid-template-columns: repeat(4,0fr);
   justify-content: center;
 }
 
@@ -60,4 +65,8 @@
 .diet-meals,
 .around-the-world-meals {
   margin-bottom: 2rem;
+}
+
+.around-the-world-meals {
+  
 }

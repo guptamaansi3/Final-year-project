@@ -13,7 +13,7 @@ const around_the_world_Data = [
   },
   {
     imgsrc : 'assets/hungarian.jpg',
-    title: 'HUngarian'
+    title: 'Hungarian'
   },
   {
     imgsrc : 'assets/indian.jpg',
