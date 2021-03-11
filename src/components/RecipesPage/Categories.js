@@ -3,6 +3,7 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import CategoryCard from './CategoryCard';
 import meal_Of_Day_Data from './CategoryData/MealOfDay';
+import healthy_meals_Data from './CategoryData/HealthyMeals';
 import "./Categories.css";
 
 const Categories = () => {
@@ -28,8 +29,23 @@ const Categories = () => {
       <div className='meal-of-day'>
       <h1 className="meal-heading">Meals of the day</h1>
       <div className='cards-set1'>
-      
+
       {meal_Of_Day_Data.map((val) => {
+        return(
+          <CategoryCard 
+          imgsrc= {val.imgsrc}
+          title = {val.title}
+          />
+        );
+      })};
+      </div>
+      </div>
+
+      <div className='healthy-meals'>
+      <h1 className="meal-heading">Healthy Meals</h1>
+      <div className='cards-set2'>
+
+      {healthy_meals_Data.map((val) => {
         return(
           <CategoryCard 
           imgsrc= {val.imgsrc}

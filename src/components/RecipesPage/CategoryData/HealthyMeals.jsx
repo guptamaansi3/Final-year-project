@@ -4,7 +4,7 @@ const healthy_meals_Data = [
     title: 'Vegan'
   },
   {
-    imgsrc : 'assets/vegatarian.jpg',
+    imgsrc : 'assets/vegetarian.jpg',
     title: 'Vegetarian'
   },
   {
@@ -15,6 +15,6 @@ const healthy_meals_Data = [
     imgsrc : 'assets/nut-free.jpg',
     title: 'Nut Free'
   }
-]
+];
 
-export deafult healthy_meals_Data;
+export default healthy_meals_Data;
