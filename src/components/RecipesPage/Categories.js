@@ -31,7 +31,9 @@ const Categories = () => {
         <h1 className="meal-heading">Meals of the day</h1>
         <div className="cards-set1">
           {meal_Of_Day_Data.map((val) => {
-            return <CategoryCard imgsrc={val.imgsrc} title={val.title} />;
+            return <CategoryCard 
+            imgsrc={val.imgsrc} 
+            title={val.title} />;
           })}
         </div>
       </div>
@@ -40,9 +42,11 @@ const Categories = () => {
         <h1 className="meal-heading">Healthy Meals</h1>
         <div className="cards-set2">
           {healthy_meals_Data.map((val) => {
-            return <CategoryCard imgsrc={val.imgsrc} title={val.title} />;
+            return <CategoryCard 
+            imgsrc={val.imgsrc} 
+            title={val.title} />;
           })}
-          ;
+
         </div>
       </div>
 
@@ -50,9 +54,11 @@ const Categories = () => {
         <h1 className="meal-heading">Diet Meals</h1>
         <div className="cards-set3">
           {diet_meals_Data.map((val) => {
-            return <CategoryCard imgsrc={val.imgsrc} title={val.title} />;
+            return <CategoryCard 
+            imgsrc={val.imgsrc} 
+            title={val.title} />;
           })}
-          ;
+          
         </div>
       </div>
 

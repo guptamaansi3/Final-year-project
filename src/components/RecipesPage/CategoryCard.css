@@ -1,16 +1,15 @@
-.category-content{
+.category-content {
   margin: 1.8rem;
   background: #f8f6f6;
-   box-shadow:  20px 20px 60px #bebebe,
-             -20px -20px 60px #ffffff;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
 }
 
-.category-img{
+.category-img {
   height: 300px;
   width: 300px;
 }
 
-.category-title{
-  padding: .8rem;
+.category-title {
+  padding: 0.8rem;
   font-size: 1.4rem;
 }
