@@ -75,7 +75,7 @@ const Categories = () => {
       <h1 className="meal-heading">Around the World</h1>
       <div className='cards-set4'>althy
 
-      {around_the_world__Data.map((val) => {
+      {around_the_world_Data.map((val) => {
         return(
           <CategoryCard 
           imgsrc= {val.imgsrc}
