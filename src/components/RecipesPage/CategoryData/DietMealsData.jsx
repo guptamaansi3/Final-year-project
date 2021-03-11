@@ -1,18 +1,18 @@
 const diet_meals_Data = [
   {
-    imgsrc : 'assets/vegan.jpg',
+    imgsrc : 'assets/balanced.jpg',
     title: 'Balanced'
   },
   {
-    imgsrc : 'assets/vegetarian.jpg',
+    imgsrc : 'assets/high-protein.jpg',
     title: 'High-Protein'
   },
   {
-    imgsrc : 'assets/low-sugar.jpg',
+    imgsrc : 'assets/low-carb.jpg',
     title: 'Low-Carb'
   },
   {
-    imgsrc : 'assets/nut-free.jpg',
+    imgsrc : 'assets/low-fat.jpg',
     title: 'Low-Fat'
   }
 ];

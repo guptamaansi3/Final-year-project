@@ -1,9 +1,10 @@
 import React from "react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
-import CategoryCard from './CategoryCard';
-import meal_Of_Day_Data from './CategoryData/MealOfDay';
-import healthy_meals_Data from './CategoryData/HealthyMeals';
+import CategoryCard from "./CategoryCard";
+import meal_Of_Day_Data from "./CategoryData/MealOfDay";
+import healthy_meals_Data from "./CategoryData/HealthyMeals";
+import diet_meals_Data from "./CategoryData/DietMealsData";
 import "./Categories.css";
 
 const Categories = () => {
@@ -26,70 +27,38 @@ const Categories = () => {
         />
       </div>
 
-      <div className='meal-of-day'>
-      <h1 className="meal-heading">Meals of the day</h1>
-      <div className='cards-set1'>
-
-      {meal_Of_Day_Data.map((val) => {
-        return(
-          <CategoryCard 
-          imgsrc= {val.imgsrc}
-          title = {val.title}
-          />
-        );
-      })}
-      </div>
+      <div className="meal-of-day">
+        <h1 className="meal-heading">Meals of the day</h1>
+        <div className="cards-set1">
+          {meal_Of_Day_Data.map((val) => {
+            return <CategoryCard imgsrc={val.imgsrc} title={val.title} />;
+          })}
+        </div>
       </div>
 
-      <div className='healthy-meals'>
-      <h1 className="meal-heading">Healthy Meals</h1>
-      <div className='cards-set2'>
-
-      {healthy_meals_Data.map((val) => {
-        return(
-          <CategoryCard 
-          imgsrc= {val.imgsrc}
-          title = {val.title}
-          />
-        );
-      })};
-      </div>
+      <div className="healthy-meals">
+        <h1 className="meal-heading">Healthy Meals</h1>
+        <div className="cards-set2">
+          {healthy_meals_Data.map((val) => {
+            return <CategoryCard imgsrc={val.imgsrc} title={val.title} />;
+          })}
+          ;
+        </div>
       </div>
 
-      <div className='diet-meals'>
-      <h1 className="meal-heading">Diet Meals</h1>
-      <div className='cards-set3'>
-
-      {diet_meals_Data.map((val) => {
-        return(
-          <CategoryCard 
-          imgsrc= {val.imgsrc}
-          title = {val.title}
-          />
-        );
-      })};
-      </div>
-      </div>
-
-      <div className='around-the-world'>
-      <h1 className="meal-heading">Around the World</h1>
-      <div className='cards-set4'>althy
-
-      {around_the_world_Data.map((val) => {
-        return(
-          <CategoryCard 
-          imgsrc= {val.imgsrc}
-          title = {val.title}
-          />
-        );
-      })};
-      </div>
+      <div className="diet-meals">
+        <h1 className="meal-heading">Diet Meals</h1>
+        <div className="cards-set3">
+          {diet_meals_Data.map((val) => {
+            return <CategoryCard imgsrc={val.imgsrc} title={val.title} />;
+          })}
+          ;
+        </div>
       </div>
 
       <Footer />
     </div>
   );
 };
-
 
 export default Categories;
