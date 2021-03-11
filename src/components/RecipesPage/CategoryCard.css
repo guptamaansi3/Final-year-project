@@ -4,6 +4,11 @@
   box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
 }
 
+.category-content:hover{
+    
+}
+
+
 .category-img {
   height: 300px;
   width: 310px;
