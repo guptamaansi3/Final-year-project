@@ -1,13 +1,15 @@
 .category-content {
   margin: 1.8rem;
   background: #f8f6f6;
-  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  box-shadow: 10px 10px 50px #bebebe, -20px -20px 60px #ffffff;
+  cursor: pointer;
 }
 
 .category-content:hover{
-    
+  box-shadow: 0 5px 20px rgba(0,0,0,.8);
+  transform: translateY(-10px) scale(1.02);
+  transition: 1s ease;
 }
-
 
 .category-img {
   height: 300px;
