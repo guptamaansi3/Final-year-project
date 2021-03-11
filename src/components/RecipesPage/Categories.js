@@ -5,6 +5,7 @@ import CategoryCard from "./CategoryCard";
 import meal_Of_Day_Data from "./CategoryData/MealOfDay";
 import healthy_meals_Data from "./CategoryData/HealthyMeals";
 import diet_meals_Data from "./CategoryData/DietMealsData";
+import around_the_world_Data from "./CategoryData/AroundTheWorld";
 import "./Categories.css";
 
 const Categories = () => {
@@ -54,6 +55,18 @@ const Categories = () => {
         <h1 className="meal-heading">Diet Meals</h1>
         <div className="cards-set3">
           {diet_meals_Data.map((val) => {
+            return <CategoryCard 
+            imgsrc={val.imgsrc} 
+            title={val.title} />;
+          })}
+          
+        </div>
+      </div>
+
+      <div className="around-the-world-meals">
+        <h1 className="meal-heading">Around The World</h1>
+        <div className="cards-set4">
+          {around_the_world_Data.map((val) => {
             return <CategoryCard 
             imgsrc={val.imgsrc} 
             title={val.title} />;
