@@ -56,6 +56,36 @@ const Categories = () => {
       </div>
       </div>
 
+      <div className='diet-meals'>
+      <h1 className="meal-heading">Diet Meals</h1>
+      <div className='cards-set3'>
+
+      {diet_meals_Data.map((val) => {
+        return(
+          <CategoryCard 
+          imgsrc= {val.imgsrc}
+          title = {val.title}
+          />
+        );
+      })};
+      </div>
+      </div>
+
+      <div className='around-the-world'>
+      <h1 className="meal-heading">Around the World</h1>
+      <div className='cards-set4'>althy
+
+      {around_the_world__Data.map((val) => {
+        return(
+          <CategoryCard 
+          imgsrc= {val.imgsrc}
+          title = {val.title}
+          />
+        );
+      })};
+      </div>
+      </div>
+
       <Footer />
     </div>
   );
